@@ -24,7 +24,7 @@ resource "cloudflare_record" "root_domain_txt" {
   value   = "v=spf1 include:icloud.com ~all"
 }
 
-resource "cloudflare_record" "root_domain_txt" {
+resource "cloudflare_record" "root_domain_apple_domain_txt" {
   zone_id = var.zone_id
   name    = var.domain_name
   type    = "TXT"
