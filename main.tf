@@ -3,7 +3,7 @@ resource "cloudflare_record" "mx_domain1" {
   name     = var.domain_name
   type     = "MX"
   ttl      = var.ttl
-  value    = "mx01.mail.icloud.com."
+  value    = "mx01.mail.icloud.com"
   priority = 10
 }
 
@@ -12,7 +12,7 @@ resource "cloudflare_record" "mx_domain2" {
   name     = var.domain_name
   type     = "MX"
   ttl      = var.ttl
-  value    = "mx02.mail.icloud.com."
+  value    = "mx02.mail.icloud.com"
   priority = 10
 }
 
