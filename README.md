@@ -16,7 +16,7 @@ In your Terraform file:
 ```
 module "example_icloud_dns" {
   source  = "bluk/icloud-dns/cloudflare"
-  version = "0.1.2"
+  version = "0.2.0"
 
   zone_id = "1abcd"
   domain_name = "example.com"
